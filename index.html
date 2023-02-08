@@ -14,35 +14,7 @@
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="nav-collapse">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#tabPlaythrough" data-toggle="tab" data-target="#tabPlaythrough,#btnHideCompleted">Playthrough</a></li>
-          <li><a href="#tabChecklists" data-toggle="tab" data-target="#tabChecklists,#btnHideCompleted">Achievements</a></li>
-          <li><a href="#tabWeaponsShields" data-toggle="tab" data-target="#tabWeaponsShields,#btnHideCompleted">Weapons/Shields</a></li>
-          <li><a href="#tabArmors" data-toggle="tab" data-target="#tabArmors,#btnHideCompleted">Armor</a></li>
-          <li><a href="#tabMisc" data-toggle="tab" data-target="#tabMisc,#btnHideCompleted">Misc</a></li>
-          <li><a href="#tabFAQ" data-toggle="tab"><span class="glyphicon glyphicon-question-sign"></span> FAQ</a></li>
-          <li><a href="#tabOptions" data-toggle="tab"><span class="glyphicon glyphicon-cog"></span> Options</a></li>
-        </ul>
-        <!-- /.nav.navbar-nav -->
-      </div>
-      <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-  </nav>
+  
 
   <div class="container">
     <div class="row">
@@ -52,23 +24,6 @@
       </div>
     </div>
 
-    <div class="tab-content">
-      <!-- Hide Completed Toggle -->
-      <div class="tab-pane active in" id="btnHideCompleted">
-        <div class="btn-group" role="group" data-toggle="buttons">
-          <label class="btn btn-default">
-            <input type="checkbox" id="toggleHideCompleted">
-            <span class="glyphicon glyphicon-eye-close"></span>
-            <span class="glyphicon glyphicon-eye-open"></span>
-            Hide Completed
-            <a class="btn btn-default btn-sm fadingbutton togglehide" onclick="$('#toggleHideCompleted').click();">
-              <span class="glyphicon glyphicon-eye-close"></span>
-              <span class="glyphicon glyphicon-eye-open"></span>
-              Hide Completed
-            </a>
-          </label>
-        </div>
-      </div>
       <!-- PLAYTHROUGH START -->
       <div class="tab-pane active" id="tabPlaythrough">
         <!-- Toolbar -->
