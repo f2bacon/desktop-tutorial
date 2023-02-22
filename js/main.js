@@ -5,7 +5,6 @@ var profilesKey = 'darksouls3_profiles';
 
     var themes = {
 		"Darkly" : "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/darkly/bootstrap.min.css",
-        "Flatly" : "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css",
     };
 
     var profiles = $.jStorage.get(profilesKey, {});
